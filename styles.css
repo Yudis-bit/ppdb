@@ -1,0 +1,64 @@
+body {
+    background-color: #f4f4f9;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    flex-grow: 1;
+}
+
+.header .btn-danger {
+    margin-left: auto;
+}
+
+.table thead {
+    background: #343a40;
+    color: white;
+}
+
+.table tbody tr:nth-of-type(even) {
+    background: #f8f9fa;
+}
+
+.table tbody tr:hover {
+    background: #e9ecef;
+}
+
+.btn {
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s;
+    margin-bottom: 5px;  /* Add margin to create space between buttons */
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}
+
+.btn-info:hover {
+    background: #17a2b8;
+}
+
+.btn-warning:hover {
+    background: #e0a800;
+}
+
+.container-custom {
+    max-width: 500px;
+    margin: auto;
+}
+
